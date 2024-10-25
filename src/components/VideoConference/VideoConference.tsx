@@ -6,8 +6,8 @@ interface VideoConferenceProps {
 }
 
 const VideoConference: React.FC<VideoConferenceProps> = ({ username }) => {
-    const appID = 979539649; // Your ZEGOCLOUD App ID
-    const serverSecret = '67a27c26e8f4d6f932730a12a02d8756'; // Your ZEGOCLOUD Server Secret
+    const appID = 77212615; // Your ZEGOCLOUD App ID
+    const serverSecret = 'af36c0f86bc72679120411cf4c7f9e22'; // Your ZEGOCLOUD Server Secret
 
     useEffect(() => {
         const getUrlParams = (url: string) => {
